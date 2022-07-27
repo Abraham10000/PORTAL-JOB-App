@@ -1,0 +1,44 @@
+.container h1,h2,h3 {
+    text-align: center;
+}
+
+.container {
+    background-color: rgb(93, 221, 253);
+}
+
+.poste {
+    background-color: paleturquoise;
+    border-radius: 2%;
+    margin-top: 0%;
+}
+
+.head {
+    text-align: center;
+}
+
+.description {
+    width: 50vw;
+    padding-left: 3%;
+}
+
+.search {
+    position: sticky;
+    top: 0;
+}
+p  {
+    word-wrap: normal;
+}
+
+
+@media screen and (max-width : 320px) {
+    .poste {
+        color: aqua;
+    }
+}
+
+.society {
+    color: tomato;
+}
+
+
+
